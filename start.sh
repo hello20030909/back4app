@@ -8,6 +8,7 @@ ARGO_AUTH=${ARGO_AUTH:-''}
 WSPATH=${WSPATH:-'argo'}
 UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
 
+
 set_download_url() {
   local program_name="$1"
   local default_url="$2"
